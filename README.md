@@ -1,2 +1,2 @@
-# -rvore-bin-ria
+# Arvore binaria
 Árvore binária com C
