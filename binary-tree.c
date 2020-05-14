@@ -66,7 +66,7 @@ void criar(){
 	no* n = NULL;
 	
 	while(val != 0){
-		printf("Digite os valores p/ ¡rvore: ");
+		printf("Digite os valores p/ √Årvore: ");
 		scanf("%d", &val);
 			
 		if(val != 0){
@@ -75,7 +75,7 @@ void criar(){
 	}	
 		
 	if(val == 0){
-		printf("\nSaÌda: ");
+		printf("\nSa√≠da: ");
 		imprimirEmOrdem(n);
 		printf("\n\n");
 	}
@@ -85,13 +85,13 @@ void remover(){
 	int val2 = 0;
 	no* n = NULL;
 
-	printf("Digite um valor p/ remover da ¡rvore: ");
+	printf("Digite um valor p/ remover da √Årvore: ");
 	scanf("%d", &val2);
 		
 	n = retirar(n, val2);
 		
 	printf("\nElemento %d removido!!!", val2);
-	printf("\n\nNova SaÌda: ");
+	printf("\n\nNova Sa√≠da: ");
 	imprimirEmOrdem(n);
 	printf("\n\n");
 }
@@ -104,7 +104,7 @@ void menu(){
 		printf("\n\t\tPARA PARAR O PROGRAMA, DIGITE 0!!!\n");
 		printf("\t\t----------------------------------\n\n");
 		
-		printf("1. Criar ¡rvore\t\t2. Remover Elemento\nOpÁ„o: ");
+		printf("1. Criar √Årvore\t\t2. Remover Elemento\nOp√ß√£o: ");
 		scanf("%d", &opc);
 		printf("\n");
 		
