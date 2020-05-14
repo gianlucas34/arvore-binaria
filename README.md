@@ -1,2 +1,2 @@
-# binary-tree
+# Binary Tree
 Árvore binária com C
